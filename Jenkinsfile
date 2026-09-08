@@ -1,7 +1,8 @@
 pipeline {
-    agent {
-                label 'ROBOSHOP'
-    }
+    // agent {
+    //             label 'ROBOSHOP'
+    // }
+    agent any
      environment {
         COURSE = "Jenkins"
     }
