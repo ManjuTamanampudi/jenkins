@@ -15,7 +15,7 @@ pipeline {
             steps {
                  script {
                      echo "building the project..."
-                     exit 1
+                     
                  }
             }
         }
